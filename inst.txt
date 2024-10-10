@@ -1,0 +1,13 @@
+ sudo docker build -t my-node-express-app .
+
+sudo docker ps
+sudo docker stop 3f372889251a
+
+sudo docker run -p 3001:3000 my-node-express-app
+
+
+
+
+
+
+http://localhost:3001/weather?latitude=51.5074&longitude=-0.1278
